@@ -215,6 +215,9 @@ Media Queries
   .card {
     width: 100%;
   }
+  .footer-menu ul {
+    flex-wrap: wrap;
+  }
 }
 
 /* tablet responcive  */
