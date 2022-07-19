@@ -12,7 +12,9 @@ body {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -57,4 +59,57 @@ hero section
 }
 .hero-image img {
   height: 100%;
+}
+/* -----------------------------
+ menu and blog section  
+ -------------------------------*/
+.menu-cards {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+.side-menu {
+  background-color: #161616;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px;
+  height: 240px;
+}
+
+.side-menu a {
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #161616;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 20px;
+  margin: 15px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+.card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  width: 312px;
+}
+.card-info {
+  padding: 10px;
+}
+.card-info a {
+  border: 1px solid #161616;
+  border-radius: 5px;
+  padding: 6px 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #161616;
+}
+..card-info h3 {
+  font-size: 18px;
+  font-weight: 600;
 }
