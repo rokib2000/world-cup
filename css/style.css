@@ -93,6 +93,11 @@ hero section
   padding: 10px 20px;
   margin: 15px;
 }
+.side-menu a:active,
+.side-menu a:hover {
+  background-color: #dd0000;
+  color: #ffffff;
+}
 .cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
