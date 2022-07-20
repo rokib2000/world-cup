@@ -225,9 +225,19 @@ Media Queries
     border-radius: 10px;
     flex-direction: column;
   }
+  .hero-dicription {
+    width: auto;
+  }
   .hero-dicription h1 {
     font-size: 40px;
     margin: 0;
+  }
+  .hero-image {
+    width: auto;
+  }
+  .hero-image img {
+    height: 100%;
+    width: 100%;
   }
   .menu-cards {
     flex-direction: column;
