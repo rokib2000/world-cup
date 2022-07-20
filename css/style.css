@@ -56,6 +56,25 @@ hero section
   font-weight: 500;
   padding: 10px 20px;
 }
+.hero-dicription a span {
+  position: relative;
+  transition: 0.5s;
+}
+.hero-dicription a span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.hero-dicription a:hover span {
+  padding-right: 25px;
+}
+.hero-dicription a:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .hero-image {
   width: 50%;
   padding: 50px 50px 0 50px;
