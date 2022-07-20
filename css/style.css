@@ -277,7 +277,7 @@ Media Queries
     width: 100%;
   }
   .footer-menu ul {
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
